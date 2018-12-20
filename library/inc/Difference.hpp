@@ -6,7 +6,7 @@
 class Difference : public AbsOperation {
 	public:
 		Difference(AbsImplicitGeometry* operand1, AbsImplicitGeometry* operand2);
-		~Difference();
+		//~Difference();
 		virtual bool inside(double x, double y) const;
 };
 
