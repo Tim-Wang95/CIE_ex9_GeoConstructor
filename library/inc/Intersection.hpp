@@ -7,7 +7,7 @@
 class Intersection : public AbsOperation {
 	public:
 		Intersection(AbsImplicitGeometry* operand1, AbsImplicitGeometry* operand2);
-		~Intersection();
+		//~Intersection();
 		virtual bool inside(double x, double y) const;
 };
 	
